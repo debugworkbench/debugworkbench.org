@@ -1,0 +1,22 @@
+{% extends "src/base.html" %}
+
+{% block bodyclass %}class="index"{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 text-center">
+        <h1>Debug Workbench</h1>
+        <p>Debug Workbench is an extensible, programmable debugger.</p>
+        <p>Debug Workbench is a platform for building a new class
+        of tools for use in debugging and interacting with a running
+        application.</p>
+        <p>We'll be making more information available soon, so follow
+        us on Twitter to get updates.</p>
+        <p><a href="https://twitter.com/DebugWorkbench" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @DebugWorkbench</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+{% endblock %}
